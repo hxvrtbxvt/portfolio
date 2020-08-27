@@ -1,0 +1,492 @@
+<html lang="pl">
+
+<head>
+    <title> Portfolio Paulina Kowalczyk </title>
+
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+   
+<link href="style.css" rel="stylesheet" type="text/css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+    
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <!-- particles.js container -->
+
+    <div id="particles-js">
+        <!-- stats - count particles -->
+    </div>
+
+    <nav class="navbar  navbar-expand-xl navbar-dark bg-black">
+        <div class="nav-icon ">
+            <span><i data-toggle="collapse" class="fas fa-bars green iconn"></span></i>
+ <i class="fas fa-times active iconn fa-2x"></i>
+
+
+
+        </div>
+
+
+
+    
+
+
+
+
+
+
+        <b class="ml-5">Paulina</b>
+            <b class="ml-2"> Kowalczyk</b>
+    </div>
+    </nav>
+    <div class="left-menu">
+        <ul>
+            <li>
+                <a href="about.html" target="_blank">O mnie </a>
+            </li>
+            <li>
+                <hr>
+            </li>
+            <li>
+                <a href="skills.html" target="_blank">Umiejętności</a>
+            </li>
+            <li>
+                <hr>
+            </li>
+            <li>
+                <a href="#" target="_blank">Certyfikaty</a>
+                <hr>
+            </li>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+             <br>
+
+<a href="https://github.com/hxvrtbxvt">
+
+            <i class="text-dark fab fa-github fa-4x"></i>
+</a>
+
+  </ul>
+    </div>
+
+
+    <div class="banner">
+        <div class="container">
+            <div class="row align-items-center text-center h-50">
+                <div class="col-lg-12 col-md-12 col-sm-2 ">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div id="portf"> <i class="fas fa-laptop-code"></i></div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <form method="get" action="projekty.html"> <button type="submit" href="projekty.html"><b>Projekty</b></button>
+                    <span></span></form>
+
+
+
+
+
+
+                </div>
+
+<div id="footer">
+
+  <b>  PK <b class="text-light">2020</b> 
+</div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+<script src="sliiide.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript" src="script.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+
+
+<script>
+
+
+
+
+
+    !function (t) {
+        function n(t) {
+            t = t || window.event,
+                t.preventDefault && t.preventDefault(),
+                t.returnValue = !1
+        }
+        function i(t) {
+            for (var i = r.length; i--;)
+                if (t.keyCode === r[i])
+                    return void n(t)
+        }
+        function e(t) {
+            n(t)
+        }
+        function o() {
+            window.addEventListener && window.addEventListener("DOMMouseScroll", e, !1),
+                window.onmousewheel = document.onmousewheel = e,
+                document.onkeydown = i
+        }
+        function a() {
+            window.removeEventListener && window.removeEventListener("DOMMouseScroll", e, !1),
+                window.onmousewheel = document.onmousewheel = document.onkeydown = null
+        }
+        t.fn.sliiide = function (n) {
+            function i() {
+                l.one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", k),
+                    s.body_slide ? l.css(g(p[s.place].deactivateAnimation)) : f.css(g(A[s.place].deactivateAnimation)),
+                    s.no_scroll && a(),
+                    c = !1
+            }
+            var e, r, s = t.extend({
+                toggle: "#sliiider-toggle",
+                exit_selector: ".slider-exit",
+                animation_duration: "0.5s",
+                place: "right",
+                animation_curve: "cubic-bezier(0.54, 0.01, 0.57, 1.03)",
+                body_slide: !0,
+                no_scroll: !0
+            }, n), c = !1, f = t(this), m = t(s.toggle), d = t(s.exit_selector), l = t("body"), u = {
+                transform: "",
+                "overflow-x": "",
+                "overflow-y": "",
+                transition: ""
+            }, v = {
+                transform: "",
+                transition: "",
+                width: "",
+                height: "",
+                left: "",
+                top: "",
+                bottom: "",
+                right: ""
+            }, h = {
+                visibility: "hidden",
+                transition: "transform " + s.animation_duration + " " + s.animation_curve,
+                position: "fixed"
+            }, w = {
+                transition: "transform " + s.animation_duration + " " + s.animation_curve,
+                "overflow-x": "hidden",
+                "overflow-y": "hidden"
+            }, p = {
+                setleft: function (t) {
+                    this.left.activateAnimation.transform = "translateX(" + t + "px)",
+                        this.left.deactivateAnimation.transform = "translateX(0px)"
+                },
+                setright: function (t) {
+                    this.right.activateAnimation.transform = "translateX(-" + t + "px)",
+                        this.right.deactivateAnimation.transform = "translateX(0px)"
+                },
+                setbottom: function (t) {
+                    this.bottom.activateAnimation.transform = "translateY(-" + t + "px)",
+                        this.bottom.deactivateAnimation.transform = "translateY(0px)"
+                },
+                settop: function (t) {
+                    this.top.activateAnimation.transform = "translateY(" + t + "px)",
+                        this.top.deactivateAnimation.transform = "translateY(0px)"
+                },
+                left: {
+                    activateAnimation: {
+                        transform: ""
+                    },
+                    deactivateAnimation: {
+                        transform: ""
+                    }
+                },
+                right: {
+                    activateAnimation: {
+                        transform: ""
+                    },
+                    deactivateAnimation: {
+                        transform: ""
+                    }
+                },
+                top: {
+                    activateAnimation: {
+                        transform: ""
+                    },
+                    deactivateAnimation: {
+                        transform: ""
+                    }
+                },
+                bottom: {
+                    activateAnimation: {
+                        transform: ""
+                    },
+                    deactivateAnimation: {
+                        transform: ""
+                    }
+                }
+            }, A = {
+                left: {
+                    properties: {
+                        top: "0",
+                        left: "0",
+                        transform: "translateX(-100%)"
+                    },
+                    activateAnimation: {
+                        transform: "translateX(0)"
+                    },
+                    deactivateAnimation: {
+                        transform: "translateX(-100%)"
+                    },
+                    size: function (t) {
+                        return {
+                            height: t
+                        }
+                    }
+                },
+                right: {
+                    properties: {
+                        top: "0",
+                        right: "0",
+                        transform: "translateX(100%)"
+                    },
+                    activateAnimation: {
+                        transform: "translateX(0)"
+                    },
+                    deactivateAnimation: {
+                        transform: "translateX(100%)"
+                    },
+                    size: function (t) {
+                        return {
+                            height: t
+                        }
+                    }
+                },
+                top: {
+                    properties: {
+                        top: "0",
+                        right: "0",
+                        left: "0",
+                        transform: "translateY(-100%)"
+                    },
+                    activateAnimation: {
+                        transform: "translateY(0)"
+                    },
+                    deactivateAnimation: {
+                        transform: "translateY(-100%)"
+                    },
+                    size: function (t, n) {
+                        return {
+                            width: n
+                        }
+                    }
+                },
+                bottom: {
+                    properties: {
+                        bottom: "0",
+                        right: "0",
+                        left: "0",
+                        transform: "translateY(100%)"
+                    },
+                    activateAnimation: {
+                        transform: "translateY(0)"
+                    },
+                    deactivateAnimation: {
+                        transform: "translateY(100%)"
+                    },
+                    size: function (t, n) {
+                        return {
+                            width: n
+                        }
+                    }
+                }
+            }, g = function (n) {
+                return t.each(n, function (i, e) {
+                    if ("transition" === i) {
+                        var o = {}
+                            , a = e.split(" ", 1)[0]
+                            , r = e.split(" ");
+                        r.shift(),
+                            r = r.join(" "),
+                            o["-webkit-" + i] = "-webkit-" + a + " " + r,
+                            o["-ms-" + i] = "-ms-" + a + " " + r,
+                            t.extend(n, o)
+                    } else if ("transform" === i) {
+                        var s = {};
+                        s["-webkit-" + i] = e,
+                            s["-ms-" + i] = e
+                    }
+                }),
+                    n
+            }, b = function () {
+                var n = {};
+                n.height = t(window).height(),
+                    n.width = t(window).width(),
+                    e = A[s.place].size(n.height, n.width),
+                    f.css(e),
+                    x()
+            }, x = function () {
+                s.body_slide && (r = "right" === s.place || "left" === s.place ? f.width() : f.height(),
+                    p["set" + s.place](r))
+            }, _ = function () {
+                f.css(g(h)),
+                    f.css(g(A[s.place].properties)),
+                    x()
+            }, y = function () {
+                b(),
+                    f.css("visibility", "initial"),
+                    s.body_slide ? (l.css(g(w)),
+                        l.css(g(p[s.place].activateAnimation))) : f.css(g(A[s.place].activateAnimation)),
+                    s.no_scroll && o(),
+                    c = !0
+            }, k = function () {
+                f.css("visibility", "hidden"),
+                    l.css(u),
+                    l.unbind("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", k)
+            };
+            b(),
+                _(),
+                t(window).resize(b);
+            var E = function () {
+                c ? i() : y()
+            };
+            m.click(E),
+                f.find("a").on("click", function () {
+                    i()
+                }),
+                d.on("click", function () {
+                    i()
+                });
+            var X = function () {
+                l.css(u),
+                    f.css(v),
+                    t(window).off("resize", b),
+                    m.off("click", E)
+            }
+                , Y = {
+                    reset: function () {
+                        l.one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", X),
+                            i()
+                    },
+                    deactivate: function () {
+                        i()
+                    },
+                    activate: function () {
+                        y()
+                    }
+                };
+            return Y
+        }
+            ;
+        var r = [37, 38, 39, 40]
+    }(jQuery);
+
+    $('.left-menu').sliiide({
+        place: 'left',
+        toggle: '.nav-icon'
+        
+    });
+
+    
+
+
+
+
+
+</script>
+
+
+
+<script>
+
+
+$(".nav-icon").on("click", function () {
+$(".iconn").toggleClass("active");
+})
+
+
+
+
+</script>
+
+
+
+
+
+       
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+    
+      
+
+
+        
+        <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    </body>
