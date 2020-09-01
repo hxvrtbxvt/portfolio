@@ -1,17 +1,30 @@
- /* ---- reset ---- */
- 
+/* ---- reset ---- */
+   body {
+       min-height: 100vh;
+       min-height: -webkit-fill-available;
+      
+   }
+
+   html {
+       height: -webkit-fill-available;
+   }
  * {
      box-sizing: border-box;
  }
  
- @media only screen and (max-width: 320px) {
+ @media only screen and (max-width: 600px) {
  
  
  body {
      margin: 0;
      font-size: 2em;
+     
 
  }
+ #particles-js {
+     height: 320%;
+ }
+
 }
 
 
@@ -19,14 +32,14 @@
  #particles-js {
      position: absolute;
      width: 100%;
-     height:120%;
+    
      
      background-image: linear-gradient(rgba(0, 9, 0, 5), rgba(0, 9, 0, 0.5)),
     
      url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
      background-repeat: no-repeat;
      background-size: cover;
-     background-position: fixed;
+     background-position: fixed; 
      
 
  }
@@ -93,30 +106,18 @@ animation: shake 7s linear infinite;
  }
 
 
+.aboutt {
+    height: 100vh;
+}
+.omnie {
+    margin-top: 250px;
+}
+.omniephoto {
+    margin-top:230px;
+}
 
 
 
-
-
- #portf {
-     font-family: 'Londrina Outline',
-         cursive;
-     color: white;
-     font-size: 100px;
-       animation-name: anime;
-       animation-duration: 4s;
-
-
-       }
-
-       @keyframes anime {
-           from {
-               opacity: 0;
-           }
-
-           to {
-               opacity: 1;
-           }
 
 
  }
@@ -354,7 +355,7 @@ opacity: 0.3;
     visibility: hidden;
 }
 .textt3 {
-    visibility: hidden;
+    visibility:hidden;
 }
 
 .textt1.chc {
@@ -385,18 +386,6 @@ opacity: 0.3;
     font-size: 12px;
 }
 
-.about {
-    color:white;
-   border: 1px solid white;
-   padding: 10px;
-  text-align: justify;
- 
- font-size: 20px;
-     animation-name: anime;
-     animation-duration: 4s;
-
-
-     }
 
      @keyframes anime {
          from {
@@ -417,6 +406,7 @@ opacity: 0.3;
 
 
      }
+    
 
      @keyframes anime {
          from {
@@ -428,7 +418,28 @@ opacity: 0.3;
          }
      }
 
+ #portf {
+     font-family: 'Londrina Outline',
+         cursive;
+     color: white;
+     font-size: 100px;
+     animation-name: anime;
+     animation-duration: 4s;
 
+
+ }
+
+ @keyframes anime {
+     from {
+         opacity: 0;
+     }
+
+     to {
+         opacity: 1;
+     }
+
+
+ }
 
 
 .skill {
@@ -508,7 +519,7 @@ h1::after {
 }
 
 .skille {
-
+margin-top: 100px;
   animation-name: anime;
   animation-duration: 2s;
   
